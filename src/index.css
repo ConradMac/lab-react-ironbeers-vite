@@ -1,21 +1,27 @@
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 form {
-  max-width: 400px;
-  margin: 20px auto;
+    max-width: 400px;
+    margin: 20px auto;
 }
 
 .search-bar {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .btn-round {
-  margin: 20px;
+    margin: 20px;
+}
+
+nav {
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
 }
