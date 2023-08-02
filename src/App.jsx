@@ -15,6 +15,7 @@ function App() {
         <div className="App">
             <h1>LAB | React IronBeers</h1>
             <Navbar />
+            {/* <AllBeersPage /> */}
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/beers" element={<AllBeersPage />} />
